@@ -1,0 +1,5 @@
+streamlit>=1.37
+pandas>=2.1
+openpyxl          # needed to read .xlsx/.xlsm
+xlrd==1.2.0       # ONLY if you need old .xls files
+xlsxwriter        # you use this to write .xlsx
